@@ -1,0 +1,79 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: #3d246c; /* deep purple for text */
+  background-color: #ede7f6; /* light lavender background */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #7c3aed; /* purple-500 */
+  text-decoration: inherit;
+}
+a:hover {
+  color: #5b21b6; /* purple-700 */
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #ede7f6; /* light lavender */
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: #7c3aed; /* purple-500 */
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid #a78bfa; /* purple-300 */
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #f3e8ff; /* purple-100 */
+  color: #3d246c;
+  cursor: pointer;
+  transition: border-color 0.25s, background 0.25s;
+}
+button:hover {
+  border-color: #7c3aed;
+  background-color: #e9d5ff; /* purple-200 */
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto #a78bfa;
+}
+
+input, textarea, select {
+  background-color: #f3e8ff; /* purple-100 */
+  border: 1px solid #a78bfa; /* purple-300 */
+  color: #3d246c;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #3d246c;
+    background-color: #ede7f6;
+  }
+  a:hover {
+    color: #5b21b6;
+  }
+  button {
+    background-color: #f3e8ff;
+    color: #3d246c;
+  }
+}

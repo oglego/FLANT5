@@ -1,0 +1,61 @@
+# Node.js / React
+node_modules/
+build/
+dist/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+*.cover
+*.coverage
+*.coveragerc
+
+# Misc
+*.sqlite3
+*.db
+*.bak
+*.swp
+*.swo
+
+# Frontend cache
+frontend/FLANT5/.next/
+frontend/FLANT5/.cache/
+frontend/FLANT5/.eslintcache
+
+# Yarn
+yarn-error.log
+yarn-debug.log*
+
+# backend data
+docs.pkl
+index.faiss
+
+# React images
+vite.svg
+react.svg

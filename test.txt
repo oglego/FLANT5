@@ -1,0 +1,5 @@
+Python is a high-level programming language. 
+It is widely used in data science, machine learning, and web development.
+FastAPI is a modern web framework for Python. 
+LangChain is a framework to build language model apps.
+FAISS is used for similarity search.
