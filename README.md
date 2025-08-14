@@ -43,7 +43,7 @@ A modern web RAG app for uploading files and chatting with an LLM about their co
 
 ### Usage
 
-- Go to [http://localhost:3000](http://localhost:3000)
+- Go to [http://localhost:5173](http://localhost:5173)
 - Upload a text file
 - Ask questions about the file in the chat interface
 
@@ -68,5 +68,5 @@ frontend/
 ## Configuration
 
 - The backend runs on port 8000 by default.
-- The frontend runs on port 3000 by default.
+- The frontend runs on port 5173 by default.
 - CORS is enabled for development.
